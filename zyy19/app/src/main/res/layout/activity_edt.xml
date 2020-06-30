@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EdtActivity">
+
+    <EditText
+        android:id="@+id/edt_input"
+        android:hint="请输入内容"
+        android:minLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_done"
+        android:text="完成"
+        android:elevation="0dp"
+        android:outlineProvider="none"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:layout_width="90dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>

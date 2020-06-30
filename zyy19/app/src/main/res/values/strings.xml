@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">周洋洋</string>
+    <string name="my_name">周洋洋</string>
+
+
+    <string name="ple_username">请输入用户名</string>
+    <string name="ple_password">请输入密码</string>
+</resources>
